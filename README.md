@@ -28,44 +28,61 @@ Home buyers, sellers, renters, investors, and businesses
 What are the objectives of the analysis?
 
 a. Determining house attributes impacting prices of houses
+
 b. Providing recommendations to guide the process of buying and selling houses
+
 c. Create awareness of the role of regression analysis in enhancing evidence-based decision making processes
 Dataset
 
 Briefly provide a description and understanding of the data used in your analysis?
 o	Source: https://github.com/learn-co-curriculum/dsc-phase-2-project-v2-3/tree/main/data
+
 o	Name of data: kc_house_data.csv
+
 o	Nature of data: House properties sold from 2014 to 2016
+
 o	Data Structure: 21597 observations and 21 columns describing the property attributes
+
 o	Significance: appropriate and useful for regression analysis since the data suggests correlations between prices and house attributes
 
 What do the different columns describe for King County Data Set?
 
 1.	Id - Unique identifier for a house
-2.	Date - Date house was sold
-3.	Price - Sale price (prediction target)
-4.	Bedrooms - Number of bedrooms
-5.	Bathrooms - Number of bathrooms
-6.	Sqft_living - Square footage of living space in the home
-7.	Sqft_lot - Square footage of the lot
-8.	Floors - Number of floors (levels) in house
-9.	Waterfront - Whether the house is on a waterfront
+2.	
+3.	Date - Date house was sold
+4.	
+5.	Price - Sale price (prediction target)
+
+7.	Bedrooms - Number of bedrooms
+8.	
+9.	Bathrooms - Number of bathrooms
+10.	
+11.	Sqft_living - Square footage of living space in the home
+12.	
+13.	Sqft_lot - Square footage of the lot
+14.	
+15.	Floors - Number of floors (levels) in house
+16.	
+17.	Waterfront - Whether the house is on a waterfront
+18.	
 Includes Duwamish, Elliott Bay, Puget Sound, Lake Union, Ship Canal, Lake Washington, Lake Sammamish, other lake, and river/slough waterfronts
-10.	View - Quality of view from house
+
+20.	View - Quality of view from house
+21.	
 Includes views of Mt. Rainier, Olympics, Cascades, Territorial, Seattle Skyline, Puget Sound, Lake Washington, Lake Sammamish, small lake / river / creek, and other
-11.	Condition - How good the overall condition of the house is. Related to maintenance of house.
+22.	Condition - How good the overall condition of the house is. Related to maintenance of house.
 See the King County Assessor Website for further explanation of each condition code
-12.	Grade - Overall grade of the house. Related to the construction and design of the house.
+23.	Grade - Overall grade of the house. Related to the construction and design of the house.
 See the King County Assessor Website for further explanation of each building grade code
-13.	Sqft_above - Square footage of house apart from basement
-14.	Sqft_basement - Square footage of the basement
-15.	Yr_built - Year when house was built
-16.	Yr_renovated - Year when house was renovated
-17.	Zipcode - ZIP Code used by the United States Postal Service
-18.	Lat - Latitude coordinate
-19.	Long - Longitude coordinate
-20.	Sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
-21.	Sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
+24.	Sqft_above - Square footage of house apart from basement
+25.	Sqft_basement - Square footage of the basement
+26.	Yr_built - Year when house was built
+27.	Yr_renovated - Year when house was renovated
+28.	Zipcode - ZIP Code used by the United States Postal Service
+29.	Lat - Latitude coordinate
+30.	Long - Longitude coordinate
+31.	Sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
+32.	Sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
 What regression models were used in the project?
 a. simple linear regression to form the baseline
 b. Multiple linear regressions (various models were fit and the best model selected)
