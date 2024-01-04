@@ -51,53 +51,49 @@ o	Significance: appropriate and useful for regression analysis since the data su
 What do the different columns describe for King County Data Set?
 
 1.	Id - Unique identifier for a house
-2.	
-3.	Date - Date house was sold
-4.	
-5.	Price - Sale price (prediction target)
-6.	
-7.	Bedrooms - Number of bedrooms
-8.	
-9.	Bathrooms - Number of bathrooms
-10.	
-11.	Sqft_living - Square footage of living space in the home
-12.	
-13.	Sqft_lot - Square footage of the lot
-14.	
-15.	Floors - Number of floors (levels) in house
-16.	
-17.	Waterfront - Whether the house is on a waterfront
-18.	
-Includes Duwamish, Elliott Bay, Puget Sound, Lake Union, Ship Canal, Lake Washington, Lake Sammamish, other lake, and river/slough waterfronts
+	
+2.	Date - Date house was sold
+	
+3.	Price - Sale price (prediction target)
+	
+4.	Bedrooms - Number of bedrooms
+		
+5.	Bathrooms - Number of bathrooms
+	
+6.	Sqft_living - Square footage of living space in the home
+	
+7.	Sqft_lot - Square footage of the lot
+	
+8.	Floors - Number of floors (levels) in house
+	
+9.	Waterfront - Whether the house is on a waterfront: Includes Duwamish, Elliott Bay, Puget Sound, Lake Union, Ship Canal, Lake Washington, Lake Sammamish, other lake, and river/slough waterfronts
 
-20.	View - Quality of view from house
-21.	
-Includes views of Mt. Rainier, Olympics, Cascades, Territorial, Seattle Skyline, Puget Sound, Lake Washington, Lake Sammamish, small lake / river / creek, and other.
+10.	View - Quality of view from house: Includes views of Mt. Rainier, Olympics, Cascades, Territorial, Seattle Skyline, Puget Sound, Lake Washington, Lake Sammamish, small lake / river / creek, and other.
 
-23.	Condition - How good the overall condition of the house is. Related to maintenance of house.
+11.	Condition - How good the overall condition of the house is. Related to maintenance of house.
 See the King County Assessor Website for further explanation of each condition code.
 
-25.	Grade - Overall grade of the house. Related to the construction and design of the house.
+12.	Grade - Overall grade of the house. Related to the construction and design of the house.
 See the King County Assessor Website for further explanation of each building grade code.
 
-27.	Sqft_above - Square footage of house apart from basement.
-28.	
-29.	Sqft_basement - Square footage of the basement.
-30.	
-31.	Yr_built - Year when house was built.
-32.	
-33.	Yr_renovated - Year when house was renovated.
-34.	
-35.	Zipcode - ZIP Code used by the United States Postal Service.
-36.	
-37.	Lat - Latitude coordinate.
-38.	
-39.	Long - Longitude coordinate.
-40.	
-41.	Sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors.
-42.	
-43.	Sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors.
-44.	
+13.	Sqft_above - Square footage of house apart from basement.
+
+14.	Sqft_basement - Square footage of the basement.
+	
+15.	Yr_built - Year when house was built.
+	
+16.	Yr_renovated - Year when house was renovated.
+	
+17.	Zipcode - ZIP Code used by the United States Postal Service.
+	
+18.	Lat - Latitude coordinate.
+	
+19.	Long - Longitude coordinate.
+	
+20.	Sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors.
+	
+21.	Sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors.
+	
 What regression models were used in the project?
 
 a. simple linear regression to form the baseline
