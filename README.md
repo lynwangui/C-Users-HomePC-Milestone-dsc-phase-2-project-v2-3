@@ -6,7 +6,9 @@ Members
 4.	Beryl Wafula
 5.	Christine Gitau
 6.	Allan Omollo
+	
 PROJECT OVERVIEW:
+
 What problem is the project aiming at solving?
 •	The project purposes to answer the question: "What housing attributes impact the value of houses in King County?"
 •	In analysis, the prices of houses in the county are dynamic and continuously shifts (according to statistics-over the years). This possess a challenge to buyers and sellers in determining house prices. Both are curious to know the predictors of house values in reference to price.
