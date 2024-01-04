@@ -1,4 +1,4 @@
-*Group 7 DSF-PT05*
+**Group 7 DSF-PT05**
 Members
 1.	Linet Wangui-Lead
 2.	Brian Kanyotu
@@ -7,7 +7,7 @@ Members
 5.	Christine Gitau
 6.	Allan Omollo
 	
-PROJECT OVERVIEW:
+**PROJECT OVERVIEW:**
 
 What problem is the project aiming at solving?
 
@@ -104,7 +104,7 @@ a. simple linear regression to form the baseline
 
 b. Multiple linear regressions (various models were fit and the best model selected)
 
-PROJECT METHODOLOGY
+**PROJECT METHODOLOGY**
 
 What procedures, tools, and methods did you use?
 
@@ -117,7 +117,7 @@ Preliminary procedures: Data correlation was checked. A baseline constituting si
 Post-preliminary procedures: In reference to best model, recommendations, explanations, and conclusions were generated in this phase.
 The main tools used in the project includes libaries like matplotlib, numpy, pandas, seaborn, scipy, and others.
 
-RESULTS
+**RESULTS**
 
 The variables 'sqft_living', 'bathrooms', 'sqft_above', 'sqft_living15’, and 'view are the best predictors of house prices in the county. These variables were used to modeling the final multiple regression. The model satisfied all multiple regression assumptions, and p-values for each predictor variable were below .05. The model contained an R-squared of 50.6% and an (MAE) Mean Absolute Error of 0.2994. This tells the model is off by 0.299 thousand dollars in a given prediction
 
@@ -194,7 +194,7 @@ Distribution Displot
  
 The bathroom variable showed an abnormal 
 
-REGRESSION MODELS
+**REGRESSION MODELS**
 
 a.	Baseline Model
 
@@ -211,7 +211,7 @@ sqft_living showed the highest and strongest correlation hence fit to create a b
  
 b.	Final Model
 
-Multiple linear Regression
+**Multiple linear Regression**
 
 ![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/5301282c-9cad-4516-bd37-502d02036c6d)
 ![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/0838f0af-3a05-42ec-a633-1ec94f0e87ee)
@@ -221,23 +221,23 @@ Multiple linear Regression
  
 The final model accounts to 50.6% of the variance in price and it’s a good model for use. The mean absolute error is 0.29 providing more evidences that the model is best and fit for use since it is a better improvement of the first model. The model strongly supports alternative and null hypothesis. We found that the p<0.05 which insists that we reject the Null Hypothesis that Price of house are independent. 
 
-RECOMMENDATION
+**RECOMMENDATION**
 
 It is highly recommended that the audience focus on the attributes of 'sqft_living', 'bathrooms', 'sqft_above', 'sqft_living15’, and 'view’ when deciding on prices of houses. These variables are the key predictors of house prices in King County. The variables showed strong positive correlations suggesting that an improvement in the variables increases prices. 
 Model Selection. When choosing a model, it's important to balance complexity and performance. Depending on your objectives, you might opt for a simpler model with fewer features, especially if interpretability is a key priority.
 
 
-LIMITATIONS
+**LIMITATIONS**
 
 The choice of variables included in the models may not be exhaustive. There could be other important factors influencing house prices that are not considered in the current models. 
 
 
-CONCLUSION
+**CONCLUSION**
 
 House properties influence prices of houses. The model suggests 'sqft_living', 'bathrooms', 'sqft_above', 'sqft_living15’, and 'view’ influence prices of houses in the county. 
 
 
-REPOSITORY STRUCTURE
+**REPOSITORY STRUCTURE**
 
 • Data: Contains the raw dataset (kc_house_data.csv) used for analysis.
 
