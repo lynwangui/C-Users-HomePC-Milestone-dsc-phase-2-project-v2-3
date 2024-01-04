@@ -159,6 +159,9 @@ House properties influence prices of houses. The model suggests 'sqft_living', '
 REPOSITORY STRUCTURE
 
 • Data: Contains the raw dataset (kc_house_data.csv) used for analysis.
+
 • Notebooks: Includes Jupyter Notebooks detailing the entire analysis process.
+
 • README.md: Provides an overview of the project, business problems explored, data understanding, analysis, modeling, conclusions, and repository structure.
+
 • Presentation: Contains the presentation slides in pdf detailing the project findings.
