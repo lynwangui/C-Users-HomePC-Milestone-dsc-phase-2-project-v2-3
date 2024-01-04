@@ -139,15 +139,26 @@ Multiple linear Regression
  
  
 The final model accounts to 50.6% of the variance in price and it’s a good model for use. The mean absolute error is 0.29 providing more evidences that the model is best and fit for use since it is a better improvement of the first model. The model strongly supports alternative and null hypothesis. We found that the p<0.05 which insists that we reject the Null Hypothesis that Price of house are independent. 
+
 RECOMMENDATION
+
 It is highly recommended that the audience focus on the attributes of 'sqft_living', 'bathrooms', 'sqft_above', 'sqft_living15’, and 'view’ when deciding on prices of houses. These variables are the key predictors of house prices in King County. The variables showed strong positive correlations suggesting that an improvement in the variables increases prices. 
 Model Selection. When choosing a model, it's important to balance complexity and performance. Depending on your objectives, you might opt for a simpler model with fewer features, especially if interpretability is a key priority.
+
+
 LIMITATIONS
+
 The choice of variables included in the models may not be exhaustive. There could be other important factors influencing house prices that are not considered in the current models. 
+
+
 CONCLUSION
+
 House properties influence prices of houses. The model suggests 'sqft_living', 'bathrooms', 'sqft_above', 'sqft_living15’, and 'view’ influence prices of houses in the county. 
+
+
 REPOSITORY STRUCTURE
+
 • Data: Contains the raw dataset (kc_house_data.csv) used for analysis.
 • Notebooks: Includes Jupyter Notebooks detailing the entire analysis process.
-• README.md: Provides an overview of the project, business problems explored, data understanding, analysis, conclusions, and repository structure.
+• README.md: Provides an overview of the project, business problems explored, data understanding, analysis, modeling, conclusions, and repository structure.
 • Presentation: Contains the presentation slides in pdf detailing the project findings.
