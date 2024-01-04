@@ -1,4 +1,4 @@
-Group 7 DSF-PT05
+*Group 7 DSF-PT05*
 Members
 1.	Linet Wangui-Lead
 2.	Brian Kanyotu
