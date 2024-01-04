@@ -13,7 +13,9 @@ What problem is the project aiming at solving?
 
 •	The project purposes to answer the question: "What housing attributes impact the value of houses in King County?"
 
-•	In analysis, the prices of houses in the county are dynamic and continuously shifts (according to statistics-over the years). This possess a challenge to buyers and sellers in determining house prices. Both are curious to know the predictors of house values in reference to price.
+•	In analysis, the prices of houses in the county are dynamic and continuously shifts (according to statistics-over the years).
+
+This possess a challenge to buyers and sellers in determining house prices. Both are curious to know the predictors of house values in reference to price.
 
 •	Every Door Real Estate Agency assumes the challenges faced by its clients (Home buyers, sellers, renters, investors, and businesses) would wish to provide insightful information into how much pre-approval they need for their ideal property.
 
@@ -35,6 +37,7 @@ c. Create awareness of the role of regression analysis in enhancing evidence-bas
 Dataset
 
 Briefly provide a description and understanding of the data used in your analysis?
+
 o	Source: https://github.com/learn-co-curriculum/dsc-phase-2-project-v2-3/tree/main/data
 
 o	Name of data: kc_house_data.csv
@@ -69,33 +72,57 @@ Includes Duwamish, Elliott Bay, Puget Sound, Lake Union, Ship Canal, Lake Washin
 
 20.	View - Quality of view from house
 21.	
-Includes views of Mt. Rainier, Olympics, Cascades, Territorial, Seattle Skyline, Puget Sound, Lake Washington, Lake Sammamish, small lake / river / creek, and other
-22.	Condition - How good the overall condition of the house is. Related to maintenance of house.
-See the King County Assessor Website for further explanation of each condition code
-23.	Grade - Overall grade of the house. Related to the construction and design of the house.
-See the King County Assessor Website for further explanation of each building grade code
-24.	Sqft_above - Square footage of house apart from basement
-25.	Sqft_basement - Square footage of the basement
-26.	Yr_built - Year when house was built
-27.	Yr_renovated - Year when house was renovated
-28.	Zipcode - ZIP Code used by the United States Postal Service
-29.	Lat - Latitude coordinate
-30.	Long - Longitude coordinate
-31.	Sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
-32.	Sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
+Includes views of Mt. Rainier, Olympics, Cascades, Territorial, Seattle Skyline, Puget Sound, Lake Washington, Lake Sammamish, small lake / river / creek, and other.
+
+23.	Condition - How good the overall condition of the house is. Related to maintenance of house.
+See the King County Assessor Website for further explanation of each condition code.
+
+25.	Grade - Overall grade of the house. Related to the construction and design of the house.
+See the King County Assessor Website for further explanation of each building grade code.
+
+27.	Sqft_above - Square footage of house apart from basement.
+28.	
+29.	Sqft_basement - Square footage of the basement.
+30.	
+31.	Yr_built - Year when house was built.
+32.	
+33.	Yr_renovated - Year when house was renovated.
+34.	
+35.	Zipcode - ZIP Code used by the United States Postal Service.
+36.	
+37.	Lat - Latitude coordinate.
+38.	
+39.	Long - Longitude coordinate.
+40.	
+41.	Sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors.
+42.	
+43.	Sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors.
+44.	
 What regression models were used in the project?
+
 a. simple linear regression to form the baseline
+
 b. Multiple linear regressions (various models were fit and the best model selected)
+
 PROJECT METHODOLOGY
+
 What procedures, tools, and methods did you use?
+
 The project methodology is divident into a pre-preliminary, preliminary, and post-preliminary procedures.
+
 Pre-preliminary procedures: In this phase, all the necessary libraries were imported and the data loaded using pandas library. The data was then cleaned and wrangled to make it more significant. Additional cleaning including replacing missing values, dropping insignificant data, filling null values, and dropping duplicates using relevant functions and methods was also done to further make the data more valuable.
+
 Preliminary procedures: Data correlation was checked. A baseline constituting simple linear regression model was fit. The model helped develop a multiple linear regression. These models helped predicted the value of houses. Graphical representation of the analysis further enhanced to establish correlation towards determining how house attributes impacted price.
+
 Post-preliminary procedures: In reference to best model, recommendations, explanations, and conclusions were generated in this phase.
 The main tools used in the project includes libaries like matplotlib, numpy, pandas, seaborn, scipy, and others.
+
 RESULTS
+
 The variables 'sqft_living', 'bathrooms', 'sqft_above', 'sqft_living15’, and 'view are the best predictors of house prices in the county. These variables were used to modeling the final multiple regression. The model satisfied all multiple regression assumptions, and p-values for each predictor variable were below .05. The model contained an R-squared of 50.6% and an (MAE) Mean Absolute Error of 0.2994. This tells the model is off by 0.299 thousand dollars in a given prediction
+
 The project followed the following steps to achieve set goals and objectives
+
 Pre-preliminary procedures
  
 Provide a detailed description of the data preparation process?
