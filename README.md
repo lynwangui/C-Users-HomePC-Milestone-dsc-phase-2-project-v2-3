@@ -52,7 +52,7 @@ What do the different columns describe for King County Data Set?
 3.	Date - Date house was sold
 4.	
 5.	Price - Sale price (prediction target)
-
+6.	
 7.	Bedrooms - Number of bedrooms
 8.	
 9.	Bathrooms - Number of bathrooms
