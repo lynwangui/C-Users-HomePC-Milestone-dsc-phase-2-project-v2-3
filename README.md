@@ -91,19 +91,30 @@ Preliminary Procedures
 ![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/b7d69341-3df0-43a5-8eb7-273c96c09e0b)
 ![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/3e2d33f4-4736-4939-a8c5-b050ff3d2ba8)
 ![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/07586e6c-0925-42ec-8275-68ca771dc1a2)
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/fe3dc22b-d317-429f-9e61-4ef217926776)
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/edbb88b3-1d39-44d2-8009-c9bf4eb4e4e2)
+
 
    
  
  
 	The least correlated variables were dropped and data checked for normal distribution as seen in the figures below
 	Basic correlations in the data
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/230a776d-33bb-4c13-803a-a77c941d0a81)
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/dfe2e910-0a44-4b9f-8dfd-064fa1fdafa5)
+
  
  
 
-	The data set was then standardized for effective analysis and make the data variables assume normal distribution curves
+	The data set was then standardized for effective analysis and make the data variables assumed normal distribution curves
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/ee419ea3-67f5-4e43-9f58-6b6ee9d61741)
+
+
  
 
 Distribution Displot
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/d11d2065-a822-4771-aa61-25605be5fb09)
+
 
  
 The bathroom variable showed an abnormal 
@@ -111,11 +122,20 @@ REGRESSION MODELS
 a.	Baseline Model
 The model composed of a simple linear regression the based on price vs sqft_living.
 sqft_living showed the highest and strongest correlation hence fit to create a baseline model for the multiple linear regression
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/3328bb13-2e77-4edb-8e56-2f56cb9fd4ac)
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/294164fd-f8ba-48f3-9e9a-0a6b12606d33)
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/c576bcf4-e2fd-4ae8-9847-696987eaa9cb)
+
+
  
  
  
 b.	Final Model
 Multiple linear Regression
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/5301282c-9cad-4516-bd37-502d02036c6d)
+![image](https://github.com/lynwangui/C-Users-HomePC-Milestone-dsc-phase-2-project-v2-3/assets/146709999/0838f0af-3a05-42ec-a633-1ec94f0e87ee)
+
+
  
  
 The final model accounts to 50.6% of the variance in price and it’s a good model for use. The mean absolute error is 0.29 providing more evidences that the model is best and fit for use since it is a better improvement of the first model. The model strongly supports alternative and null hypothesis. We found that the p<0.05 which insists that we reject the Null Hypothesis that Price of house are independent. 
